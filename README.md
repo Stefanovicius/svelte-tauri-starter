@@ -25,7 +25,7 @@ Check out `src-tauri/tauri.conf.json` to make changes to the package and window 
 Once you've made sure to have the prerequisites and installed the dependencies via `npm install`, start the development server:
 
 ```bash
-npm run tauri dev
+pnpm dev
 ```
 
 ## Testing
@@ -43,7 +43,7 @@ For unit testing [Vitest](https://vitest.dev) is pre-installed.
 To create a production version of your app:
 
 ```bash
-npm run tauri build
+pnpm build
 ```
 
 It will build your front-end, compile the Rust binary, collect all external binaries and resources and finally produce neat platform-specific bundles and installers. Read more on [Tauri building documentation](https://tauri.app/v1/guides/building/)
